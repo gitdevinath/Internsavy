@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(kaju\ katli\ \ yellow\ black\ tray.jpg);
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container{
+    width: 50vw;
+    font-size: 20px;
+}
+
+fieldset{
+    box-shadow:  0 2px 10px -7px #000;
+    
+    outline: none;
+
+}
+
+legend{
+    
+    box-shadow:  0 2px 10px -7px hsl(0, 0%, 0%);
+    align-items: center;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+
+}
+
+form{
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+    backdrop-filter: blur(10px);
+    color: rgb(221, 221, 180);
+    input[type=checkbox]{
+        margin-top: 15px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: #333;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0;
+    height: 80px;
+    position: absolute;
+    margin-top: 550px;
+}
+
+footer{
+    margin-top: 17px;
+}
+
